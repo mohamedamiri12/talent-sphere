@@ -10,7 +10,7 @@ import axios from "axios";
   
 const GlobalContext = createContext();
   
-axios.defaults.baseURL = "http://localhost:8000";
+axios.defaults.baseURL = "https://talent-sphere.onrender.com";
 axios.defaults.withCredentials = true;
   
 export const GlobalContextProvider = ({ children }) => {

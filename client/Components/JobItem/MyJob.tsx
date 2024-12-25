@@ -71,7 +71,7 @@ function MyJob({ job }: JobProps) {
           onClick={() => {
             isAuthenticated
               ? handleLike(job._id)
-              : router.push("http://localhost:8000/login");
+              : router.push("https://talent-sphere.onrender.com/login");
           }}
         >
           {isLiked ? bookmark : bookmarkEmpty}
