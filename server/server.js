@@ -29,7 +29,7 @@ const config = {
   session: {
     absoluteDuration: 30 * 24 * 60 * 60 * 1000, // 30 days
     cookie: {
-      domain: "https://talent-sphere.onrender.com",
+      domain: "talent-sphere.onrender.com",
       secure: true,
       sameSite: "None",
     },
